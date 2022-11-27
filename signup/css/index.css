@@ -1,0 +1,123 @@
+.big {
+	/* max-width: 600px;
+	min-width: 320px; */
+    width: 600px;
+    height: 1060px;
+	margin: 0 auto;
+	font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+	color: #fff;
+	background-color: #4f578e;
+    background-image: url(images/bg.png);
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.top{
+    /* float: left; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 102px;
+    /* background-color: pink; */
+}
+
+.top div{
+    /* position: absolute; */
+    width: 100px;
+    /* background-color: red; */
+}
+
+.topl{
+    padding: 20px;
+}
+
+.topr{
+    padding: 20px 0 20px 20px;
+}
+.signup{
+    text-align: center;
+    font-size: 20px;
+    line-height: 102px;
+}
+.middleu{
+    position: relative;
+    height: 236px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    
+}
+
+
+
+.middleb{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    position: relative;
+    height: 332px;
+    width: 600px;
+    /* background-color: violet; */
+}
+
+.middleb li{
+    width: 460px;
+    height: 83px;
+    /* background-color: #fff; */
+
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    font-size: 1.7em;
+    height: 2.7em;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #fff;
+    -web-kit-appearance: none;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.bottom{
+
+    position: relative;
+    height: 390px;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+
+.btn{
+    border-radius:40px;
+    height: 77px;
+    width: 460px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 38px;
+    text-align: center;
+    line-height: 77px;
+    background-color: #fff;
+    color: #706d9f;
+    font-size: 25px;
+
+}
+
+.last{
+    height: 27px;
+    width: 285px;
+    margin: auto;
+    margin-top: 37px;
+    text-align: center;
+    line-height: 27px;
+    /* background-color: #fff; */
+}
+
+a{
+    color:#fff
+}
+a:hover{
+    color: #3dfcb5;
+}
